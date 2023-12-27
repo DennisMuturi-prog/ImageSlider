@@ -1,0 +1,43 @@
+.imageSlider>div{
+    position: absolute;
+    display: none;
+}
+.main{
+    display: flex;
+    gap:10px;
+}
+.imageSlider{
+    position: relative;
+    flex:1 1 500px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    height: 70vh;
+}
+.arrow img{
+    width: 100px;
+}
+.imageSlider img{
+    width:100%;
+}
+.imageSlider>div.visible{
+    display: inline-block;
+}
+.header{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+
+.header>div{
+    width:20px;
+    height: 20px;
+    border:1px solid blue;
+    border-radius: 50%;
+}
+.chosen{
+    background-color: blue;
+
+}
